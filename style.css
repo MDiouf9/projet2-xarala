@@ -1,0 +1,269 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(177, 175, 175);
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+/* header */
+em {
+  color: rgb(92, 238, 92);
+}
+header {
+  background-color: white;
+  padding: 2px;
+  overflow: hidden;
+  box-shadow: 0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+  margin-bottom: 2px;
+}
+nav {
+  padding-left: 5px;
+  display: flex;
+}
+.logo-menu {
+  display: flex;
+  align-items: center;
+}
+.li-h {
+  display: inline;
+  list-style: none;
+  margin: 30px;
+}
+.buton-icon {
+  display: flex;
+  align-items: center;
+  margin-left: 45%;
+}
+i {
+  padding: 15px;
+}
+.button2 {
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+}
+ul li a:hover {
+  color: green;
+  font-size: 20px;
+}
+/* body  */
+/* section 1 */
+.sec1 {
+  display: flex;
+  justify-content: space-between;
+  max-height: 800px;
+  overflow: hidden;
+  background-color: white;
+  margin-top: 1px;
+  margin-bottom: 10px;
+}
+.sec1-gauche {
+  margin-left: 5%;
+  padding-top: 40px;
+}
+h5,
+.p1,
+.bt1 {
+  margin: 10px;
+  font-size: 25px;
+  padding-top: 10px;
+}
+h5 {
+  color: rgb(92, 238, 92);
+}
+h1 {
+  font-size: 40px;
+}
+.bt1 {
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin: 10px;
+  padding: 15px;
+}
+
+.sec1-droite {
+  padding: 20%;
+  margin: 80%;
+}
+
+.img1 {
+  width: 100%;
+  height: auto;
+}
+
+/* section2 */
+.sec2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1%;
+  box-shadow: 0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+}
+.sec2-gauche {
+  flex-direction: column;
+  height: 14%;
+  width: 12%;
+  background-color: white;
+  border-radius: 10px;
+}
+.img-sec2g {
+  mix-blend-mode: multiply;
+  width: 100%;
+  height: auto;
+}
+.sec2 .sec2-droite {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin-left: 10%;
+
+  margin-bottom: 2%;
+  height: 30%;
+  width: 60%;
+  background-color: white;
+  border-radius: 10px;
+}
+.img-sec2d {
+  border-radius: 0px 40px 0px 61px;
+  border: 7px solid #c9c7c7;
+  height: 120px;
+  width: 120px;
+  margin-left: 5%;
+  margin-bottom: 7%;
+  margin-top: 1%;
+}
+.h3-1 {
+  padding: 20px;
+  font-size: 30px;
+  color: rgb(243, 243, 102);
+  text-decoration: underline;
+}
+
+/* Section3 */
+.gallery {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+}
+.h3-2 {
+  text-align: center;
+  margin-bottom: 1%;
+  color: green;
+  font-size: 25px;
+}
+.gallery .content {
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  margin: 1%;
+  border-radius: 40px 40px 0px 0px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.img-gallery {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+}
+.ul-gallery {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.card1 {
+  font-size: 25px;
+}
+.card-p {
+  font-size: 15px;
+  color: rgb(182, 184, 185);
+}
+.h6-gallery {
+  font-size: 20px;
+}
+.fa-star,
+.fa-regular {
+  color: green;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+li {
+  list-style: none;
+}
+.bt-sec3 {
+  border: none;
+  width: 100%;
+  color: white;
+  font-size: 15px;
+  background: green;
+  padding: 10px;
+  border-radius: 0px 0px 10px 10px;
+}
+/* section 4 */
+.gallery2 {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+}
+.h3-2 {
+  text-align: center;
+  margin-bottom: 1%;
+  color: green;
+  font-size: 25px;
+}
+.gallery2 .content2 {
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  margin: 1%;
+  border-radius: 40px 40px 0px 0px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.img-gallery {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+}
+.ul-gallery {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.card1 {
+  font-size: 25px;
+}
+.card-p {
+  font-size: 15px;
+  color: rgb(182, 184, 185);
+}
+.h6-gallery {
+  font-size: 20px;
+}
+.fa-star,
+.fa-regular {
+  color: green;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+li {
+  list-style: none;
+}
+.bt-sec3 {
+  border: none;
+  width: 100%;
+  color: white;
+  font-size: 15px;
+  background: green;
+  padding: 10px;
+  border-radius: 0px 0px 10px 10px;
+}
