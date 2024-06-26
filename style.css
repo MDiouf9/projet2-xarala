@@ -135,9 +135,11 @@ h1 {
 /* section2 */
 .sec2 {
   display: flex;
+
   justify-content: center;
   margin-bottom: 1%;
   box-shadow: 0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+  padding: 20px;
 }
 .sec2-gauche {
   flex-direction: column;
@@ -152,13 +154,14 @@ h1 {
   height: auto;
 }
 .sec2 .sec2-droite {
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex;
+  flex-wrap: wrap; */
+  flex-direction: column;
   justify-content: center;
   text-align: center;
   margin-left: 10%;
 
-  margin-bottom: 2%;
+  margin-bottom: 4%;
   height: 30%;
   width: 60%;
   background-color: white;
